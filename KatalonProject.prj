@@ -3,7 +3,7 @@
    <description></description>
    <name>KatalonProject</name>
    <tag></tag>
-   <UUID>3e87df54-b5cf-44a5-bf4b-ace3f0f29f22</UUID>
+   <UUID>0d516266-b039-4320-a1c6-c8eb09c972fa</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
@@ -25,5 +25,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>GENERIC</type>
+   <type>WEBSERVICE</type>
 </Project>
