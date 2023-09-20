@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description>Data Driven Testing</description>
-   <name>1_Test Data</name>
+   <description>Data Driven Testing for SOAP API Testing</description>
+   <name>Test Data</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c1dcacbf-9bab-4a8d-89da-704bcb84f196</dataFileGUID>
-   <dataSourceUrl>C:\Users\JOrbiso\Downloads\TestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\JOrbiso\Documents\repos\Katalon_Workspace\KatalonProject\Data Files\TestData_SOAP.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

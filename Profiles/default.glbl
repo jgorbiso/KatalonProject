@@ -14,4 +14,9 @@
       <initValue>'John'</initValue>
       <name>userName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reqres.in'</initValue>
+      <name>endpoint_rest</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>SOAP_API_TestSuiteCollection_1</name>
+   <name>2_TestSuiteCollection_1</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
@@ -15,7 +15,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SOAP_API_TESTING/SOAP_API_TestSuite_1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SOAP_API_TESTING/1_TestSuite_1</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/SOAP_API_TESTING/SOAP_API_TestSuite_1</testSuiteEntity>
+         <testSuiteEntity>Test Suites/SOAP_API_TESTING/1_TestSuite_1</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

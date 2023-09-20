@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SOAP_API_TestSuite_1</name>
+   <name>1_TestSuite_1</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>01f4496f-9018-465c-87e4-72faea466ee8</testSuiteGuid>
+   <testSuiteGuid>605d2519-209b-4db2-bbda-2b801b8c45aa</testSuiteGuid>
    <testCaseLink>
-      <guid>9f516189-4b54-43da-a0c4-52fa66fe77c2</guid>
+      <guid>20e88d60-4511-4afb-8dc6-5b372407b3ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Section 13 - SOAP API TESTING/2_Test</testCaseId>
+      <testCaseId>Test Cases/Section 14 - REST API TESTING/1_Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>445b07a9-c480-4cae-992b-7e3bbc44538b</guid>
+      <guid>b6546496-97c0-4447-a5f4-9fdc4b3b953c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Section 13 - SOAP API TESTING/1_Test</testCaseId>
+      <testCaseId>Test Cases/Section 14 - REST API TESTING/2_Test</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

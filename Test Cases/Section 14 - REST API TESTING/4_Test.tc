@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data Driven Testing with Excel CSV</description>
+   <name>4_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb93bf03-5057-4cb4-bb34-c7cc2c0fb7ab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1b71898-6f60-493f-bad2-80a59c951cb6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Priyanka'</defaultValue>
+      <description></description>
+      <id>a1b71898-6f60-493f-bad2-80a59c951cb6</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+</TestCaseEntity>

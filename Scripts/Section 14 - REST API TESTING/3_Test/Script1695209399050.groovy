@@ -36,16 +36,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response1 = WS.sendRequest(findTestObject('CountryInfoService/ListCountries'))
+response = WS.sendRequest(findTestObject('UserRestService/ListUsers'))
 
-String xml1 = response1.responseBodyContent
+def jsonSlurper = new groovy.json.JsonSlurper()
 
-def dataValue = new XmlSlurper().parseText(xml1)
+def result = jsonSlurper.parseText(response.getResponseBodyContent())
 
-println('dataValue: ' + dataValue)
+def value = result.data[1].first_name
 
-def countryCode = dataValue.ListOfCountryNamesByNameResult.tCountryCodeAndName[0].sISOCode.text()
+println('Value extracted is: ' + value)
 
-println('The country code is: ' + countryCode)
-
-WS.sendRequestAndVerify(findTestObject('CountryInfoService/GetCapital'))
+WS.sendRequest(findTestObject('UserRestService/UpdateUser', ['userName' : value]))

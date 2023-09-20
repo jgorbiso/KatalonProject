@@ -28,7 +28,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://reqres.in/api/users/2</restUrl>
+   <restUrl>https://${endpoint_rest}/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -43,6 +43,13 @@
       <id>09576af1-ce46-42c8-bb46-19fdfc19820b</id>
       <masked>false</masked>
       <name>userName</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.endpoint_rest</defaultValue>
+      <description></description>
+      <id>30f9ed16-38e8-4cdd-bbdf-76ae369df005</id>
+      <masked>false</masked>
+      <name>endpoint_rest</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

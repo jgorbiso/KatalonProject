@@ -64,6 +64,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementText(response, 'CapitalCityResponse.CapitalCityResult', 'Mariehamn')</verificationScript>
+WS.verifyElementText(response, 'CapitalCityResponse.CapitalCityResult', 'Tirana')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl</wsdlAddress>
 </WebServiceRequestEntity>

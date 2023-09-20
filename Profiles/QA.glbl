@@ -9,4 +9,14 @@
       <initValue>'IN'</initValue>
       <name>countryISOCode</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jane'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reqres.in'</initValue>
+      <name>endpoint_rest</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
