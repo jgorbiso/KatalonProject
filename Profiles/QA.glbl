@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>QA</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AL'</initValue>
+      <initValue>'IN'</initValue>
       <name>countryISOCode</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'John'</initValue>
-      <name>userName</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

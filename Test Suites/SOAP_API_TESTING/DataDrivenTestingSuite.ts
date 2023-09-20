@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>DataDrivenTestingSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>be7cf700-c8f9-4f62-9575-1fe7a9d6866b</testSuiteGuid>
+   <testCaseLink>
+      <guid>cf10627d-9e99-4748-b85a-a3b0e6562d07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Section 13 - SOAP API TESTING/4_Test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ff807b3b-7f1b-441e-9cfe-75878d4c5b0f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/1_Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ff807b3b-7f1b-441e-9cfe-75878d4c5b0f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>countryISOCode</value>
+         <variableId>065e8f8b-57c6-40de-88ee-8432212c3007</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff807b3b-7f1b-441e-9cfe-75878d4c5b0f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>capital</value>
+         <variableId>648eac49-1037-48b9-88f1-54f4ef965590</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff807b3b-7f1b-441e-9cfe-75878d4c5b0f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currency</value>
+         <variableId>5948646a-d615-4dc8-86bf-710c2f2af65b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

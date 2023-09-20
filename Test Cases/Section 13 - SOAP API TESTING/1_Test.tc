@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Simple Web Service Request Test Case</description>
+   <name>1_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77f843ab-295e-41bf-816a-81bb8f383fe5</testCaseGuid>
+</TestCaseEntity>
