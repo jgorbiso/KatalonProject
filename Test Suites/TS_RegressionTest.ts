@@ -22,7 +22,7 @@
       <guid>49e85218-0bdd-4ff0-8a5e-e2056af3f4b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Section 5 - HTTP Methods/TestHTTPMethods</testCaseId>
+      <testCaseId>Test Cases/Section 05 - HTTP METHODS/TestHTTPMethods</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
